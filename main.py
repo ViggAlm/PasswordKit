@@ -14,8 +14,8 @@ def menu():
     init()
     os.system("title PasswordKit")
 
-    log.general("Welcome to the PasswordKit made by ViggAlm on github, where you can also find the discord server.#")
-    log.general("This was  made as a fun side project, please report any issues by discord.")
+    log.general("Welcome to the PasswordKit made by ViggAlm on github, where you can also find the discord server.")
+    log.general("This was  made as a fun side project, please report any issues by the discord server.")
 
     log.question("Press 'C' for the password strength checker or press 'G' for the password generator:")
     action = input("").lower()
